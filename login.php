@@ -9,14 +9,14 @@
     <div class="row">
         <div class="col-md-6">
             <div class="card">
-                <form class="box">
+            <form  action="checklogin.php" method="post" class="box">
                 
                 <div class="h5 font-weight-bold text-center mb-3" style="color : #ffffff99;">Login</div>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="member_name" name="member_user" placeholder="Username" required>
+                  <input type="text" class="form-control" id="mem_username" name="mem_username" placeholder="Username" required>
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control"  id="member_password" name="member_password" placeholder="Password" required >
+                  <input type="password" class="form-control"  id="mem_password" name="mem_password" placeholder="Password" required >
                 </div>
             </br>
                                
