@@ -1,4 +1,3 @@
-<?php include_once ('link.php'); ?>
 <?php include('db.php'); ?>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet"> 
 
@@ -11,13 +10,11 @@ $result_shop =mysqli_query($con, $query_shop) or die ("Error in query: $query_sh
 
 <body>
 </br>
-<div class="row">
+<div class="card-deck">
 <?php foreach ($result_shop as $row_pro) {?>
+   
+  <div style="text-align: center;">
   
-
-  
-  <div class="col cm-6" style="text-align: center;">
-  <div class="container">
   <div class="card" style="width: 18rem;">
      <div class="card-body">
      <img src="admin/img/<?php echo $row_pro ['list_img']?> " alt="" width="220px" height="175" >
@@ -28,28 +25,24 @@ $result_shop =mysqli_query($con, $query_shop) or die ("Error in query: $query_sh
        </div>
    </div>
 </div>
-</div>
+
 <?php } ?>
 </div>
 </body>
 
 <style>
+  body {
+  align: center;
+  text: center;
 
-    .container {
-  padding: 2px 80px;
-  
-}
-    body { 
-        background-color: #;
-    }
+  }
+
+    
 
     .card {
         background-color: #8470FF23;
 
     }
-    .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0);
-}
   
   
 button {

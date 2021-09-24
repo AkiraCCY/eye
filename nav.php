@@ -8,10 +8,10 @@
                 
             <ul class="nav navbar-nav text-right text-white ml-auto">
             <div class="btn-group" role="group" aria-label="Basic example">
-                    <a href="#"><button type="button" class="btn" style=" background-color :#ffffff50; font-weight: bold;" href="#">ลายเล็บ</button></a>
-                    <a href="#"><button type="button" class="btn " style="background-color :#ffffff50; font-weight: bold;" href="#">จองคิวทำเล็บ</button></a>
-                    <a href="#"><button type="button" class="btn " style=" background-color :#ffffff50; font-weight: bold;" href="#">ชำระเงิน</button></a>
-                </div>
+            <a href="index2.php"class="btn" style=" background-color :#ffffff50; font-weight: bold;">ลายเล็บ</button></a>
+            <a href="#" class="btn " style="background-color :#ffffff50; font-weight: bold;">จองคิวทำเล็บ</button></a>
+            <a href="#" class="btn " style=" background-color :#ffffff50; font-weight: bold;" >ชำระเงิน</button></a>
+            </div>
             </ul>
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></li>
